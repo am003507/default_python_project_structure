@@ -1,0 +1,22 @@
+반복적인 작업을 조금이라도 줄여보려고 작성한다.
+
+python project default structure
+
+project			# project root
+	log/            # save logging file
+	resource/	# save all resource  ex) db , yaml, config,txt
+	setup/		# save python setup.py install file      
+	src/		# save real python source
+		app/	# app 
+		sample/	# simple test
+		utils/	# app utils
+		main.py # main
+	tests/		# TDD 
+	.gitignore	# gitignore
+	.git		# git
+	README		# README
+	install_venv.sh # virtualenv install script
+
+
+
+
